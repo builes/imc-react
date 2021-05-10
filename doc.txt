@@ -1,0 +1,29 @@
+Ciclo de vida de los componentes
+
+Conceptos:
+    -Montaje
+    -Actualizacion
+    -Desmontaje(Muere)
+
+Hemos trabajado con componetes funcionales ya que parten de funciones
+
+-Estado del componente:
+    -Es una representacion del mismo en un momento concreto. algo asi como una instantanea del componente, Dicho estado se iniciara con un valor por defecto
+
+Existen dos tipos de componentes, con y sin estado statefull y stateless
+
+
+los creamos en el constructor de la clase
+state: 
+    -this.state.name
+    -mutable
+    -puede definir estados en el propio componente
+    -El estado es servido y actualizado por el objeto
+    -Ambos(state and object) son accesibles como atributos de la clase y se pueden proyectar en la vista
+
+props:
+    -this.props.name
+    -inmutable
+    -Determina la creacion del componente
+    -permanecen estaticos
+    -son accesibles como atributos de clase
